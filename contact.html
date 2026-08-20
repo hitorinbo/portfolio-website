@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact me</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<h2>✦ meowy</h2>
+
+			<div>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="skills.html">Skills</a>
+				<a href="projects.html">Projects</a>
+				<a href="contact.html" class="active">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<main class="contact-page">
+		<section class="contact-intro">
+			<h1>LET'S <span>KEEP</span> IN TOUCH</h1>
+			<p>Have a project idea, a question, or just want to talk? Send me a message.</p>
+		</section>
+
+		<section class="contact-layout">
+			<div class="contact-note">
+				<p class="note-mark">✦</p>
+				<h2>Find me here</h2>
+				<p>I am always open to learning, collaborating, and meeting creative people!</p>
+				<a href="mailto:kanadetomasusora@gmail.com">kanadetomasusora@gmail.com</a>
+				<p class="contact-info">Tap on my email to send me a message.</p>
+			</div>
+
+			<form class="contact-form" action="mailto:kanadetomasusora@gmail.com" method="post" enctype="text/plain">
+				<label for="name">Your name</label>
+				<input type="text" id="name" name="name" placeholder="Type your name" required>
+
+				<label for="email">Your email</label>
+				<input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+				<label for="message">Your message</label>
+				<textarea id="message" name="message" rows="5" placeholder="Write something you'd like to tell me..." required></textarea>
+
+				<button class="button" type="submit">Send message ↗</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p><strong>© 2026 meowy :3</strong></p>
+	</footer>
+
+</body>
+</html>
