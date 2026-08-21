@@ -611,6 +611,7 @@ footer {
     padding: 30px;
     border: 1px solid #29263d;
     background-color: #6c8ead;
+    color: white;
     transform: rotate(-3deg);
 }
 
@@ -630,13 +631,13 @@ footer {
 }
 
 .contact-note a {
-    color: #29263d;
+    color: white;;
     font-weight: bold;
     transition: color 0.2s, text-shadow 0.2s;
 }
 
 .contact-note a:hover {
-    color: white;
+    color: #29263d;
 }
 
 .contact-info {
